@@ -151,6 +151,7 @@ module.exports = {
             options: {
               
               compact: true,
+              plugins: ['transform-custom-element-classes'],
             },
           },
           // The notation here is somewhat confusing.
